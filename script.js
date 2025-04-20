@@ -1,5 +1,7 @@
 console.log("loops and objects");
 
+
+//Part1
 //problem 1
 console.log("counting");
 
@@ -45,3 +47,73 @@ let colors = ["maroon", "teal", "lavender", "rouge", "pink", "yellow"];
 console.log(colors);
 
 colors.reverse();
+
+
+//Part 2
+//problem 5
+console.log("All About Mickey")
+
+const person = {
+    Name: "Mickey",
+    age: 40,
+    favoriteColor: "red",
+  };
+  
+
+
+  console.log(person);
+  // Expected output: {"My name is Mickey . I'm 40 and my favorite color is purple." }
+
+
+  //problem 6
+person.hobby = "cooking";
+
+console.log(person)
+
+
+//problem 7
+console.log("Books")
+
+let Books = ["The Cat In The Hat", "The Cricket In Times Square", "The Firm"]
+
+console.log(Books)
+
+
+
+const book = {
+    title: "The Cat In The Hat",
+    author: "Dr. Seuss",
+    pages: 61
+}
+
+
+book.print = ["The Cat In The Hat by Dr. Seuss-61 pages"]
+
+console.log(book)
+
+
+
+
+const book2 = {
+    title: "The Cricket In Times Square",
+    author: "George Selden",
+    pages:79
+}
+
+console.log(book2)
+
+book2.print = ["The Cricket In Times Square by George Selden-79 pages"]
+
+
+
+
+
+const book3 = {
+    title: "The Firm",
+    author: "John Grisham",
+    pages:560
+}
+
+console.log(book3)
+
+book3.print = ["The Firm by John Grisham-560 pages"]
