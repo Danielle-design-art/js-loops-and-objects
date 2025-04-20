@@ -117,3 +117,12 @@ const book3 = {
 console.log(book3)
 
 book3.print = ["The Firm by John Grisham-560 pages"]
+
+
+//problem 8
+
+
+
+//Bonus Challenge
+
+
