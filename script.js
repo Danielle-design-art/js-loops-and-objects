@@ -84,7 +84,6 @@ const book = {
     title: "The Cat In The Hat",
     author: "Dr. Seuss",
     pages: 61
-    favorite: "True"
 }
 
 
@@ -99,7 +98,6 @@ const book2 = {
     title: "The Cricket In Times Square",
     author: "George Selden",
     pages:79
-     favorite: "False"
 }
 
 console.log(book2)
@@ -114,7 +112,7 @@ const book3 = {
     title: "The Firm",
     author: "John Grisham",
     pages:560
-    favorite: "False"
+
 }
 
 console.log(book3)
