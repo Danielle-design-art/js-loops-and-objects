@@ -82,17 +82,20 @@ console.log("Books")
 let books = [
 {title: "The Cat In The Hat",
     author: "Dr. Seuss",
-    pages: 61,
-  Favorite:false },
+    pages: 61 },
 { title: "The Cricket In Times Square",
     author: "George Selden",
-    pages: 79,
-  Favorite:false },
+    pages: 79 },
 { title: "The Firm",
     author: "John Grisham",
     pages:560,
-  Favorite:true },
+    isFavorite:true },
 ]
+
+for ( let i = 0; i < books.length; i++) {
+  let bookObjective = books[i];
+  console.log(bookObjective.title + " by " + bookObjective.author + " has " + bookObjective.pages + " pages")
+}
 
 console.log(books)
 
@@ -103,6 +106,8 @@ console.log(books)
 console.log("find favorite book")
 
 
+
+ 
 //Bonus Challenge
 
 
