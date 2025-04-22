@@ -61,7 +61,7 @@ console.log("All About Mickey")
 const person = {
     Name: "Mickey",
     age: 40,
-    favoriteColor: "red",
+    favoriteColor: "purple",
   };
   
 console.log("My name is " + person.Name + ", I'm " + person.age + " years old and my favorite color is " + person.favoriteColor)
@@ -79,50 +79,24 @@ console.log(person)
 //problem 7
 console.log("Books")
 
-let Books = ["The Cat In The Hat", "The Cricket In Times Square", "The Firm"]
-
-console.log(Books)
-
-
-
-const book = {
-    title: "The Cat In The Hat",
+let books = [
+{title: "The Cat In The Hat",
     author: "Dr. Seuss",
-    pages: 61
-}
-
-
-book.print = ["The Cat In The Hat by Dr. Seuss-61 pages"]
-
-console.log(book)
-
-
-
-
-const book2 = {
-    title: "The Cricket In Times Square",
+    pages: 61,
+  Favorite:false },
+{ title: "The Cricket In Times Square",
     author: "George Selden",
-    pages:79
-}
-
-console.log(book2)
-
-book2.print = ["The Cricket In Times Square by George Selden-79 pages"]
-
-
-
-
-
-const book3 = {
-    title: "The Firm",
+    pages: 79,
+  Favorite:false },
+{ title: "The Firm",
     author: "John Grisham",
-    pages:560
+    pages:560,
+  Favorite:true },
+]
 
-}
+console.log(books)
 
-console.log(book3)
 
-book3.print = ["The Firm by John Grisham-560 pages"]
 
 
 //problem 8
