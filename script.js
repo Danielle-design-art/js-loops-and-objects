@@ -44,9 +44,14 @@ console.log("Colors in reverse");
 
 let colors = ["maroon", "teal", "lavender", "rouge", "pink", "yellow"];
 
-console.log(colors);
+console.log(colors)
 
-colors.reverse();
+for (let i=colors.length; i>= 0; i--){
+  console.log(colors[i])
+}
+
+
+
 
 
 //Part 2
