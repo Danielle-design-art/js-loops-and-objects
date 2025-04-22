@@ -122,8 +122,18 @@ let description = {
   hobby: "gardening"
 };
 
+let Beau= {
+  name: "Beau ",
+  age: "24",
+  hobby: "woodworking"
+};
+
+
 function describePerson(obj) {
   return (obj.name) + " is " + (obj.age) + " years old, and he is at his best when he is " + (obj.hobby)
 }
 
+
+
 console.log(describePerson(description));
+console.log(describePerson(Beau));
