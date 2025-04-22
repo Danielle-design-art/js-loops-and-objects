@@ -112,6 +112,9 @@ console.log(
   "My Favorite Book is " + bookObjective.title + " by " + bookObjective.author + ", since I used to read Dr. Seuss to my younger sibling"
 );
 }
+
+
+
 //Bonus Challenge
 
 console.log("describe a person bonus")
