@@ -7,7 +7,7 @@ console.log("counting");
 
 let counting = [];
 
-for (let i = 1; i <= 10; i++) {
+for (let i = 0; i <= 10; i++) {
   counting.push(i);
 }
 
@@ -16,7 +16,7 @@ console.log(counting);
 //problem 2
 console.log("even numbers");
 
-for (i = 2; i < 22; i += 2) {
+for (i = 0; i < 22; i += 2) {
   console.log(i);
 }
 
