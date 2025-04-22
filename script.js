@@ -44,7 +44,7 @@ console.log("Colors in reverse");
 
 let colors = ["maroon", "teal", "lavender", "rouge", "pink", "yellow"];
 
-console.log(colors)
+console.log(colors);
 
 for (let i=colors.length; i>= 0; i--){
   console.log(colors[i])
@@ -64,7 +64,7 @@ const person = {
     favoriteColor: "red",
   };
   
-
+console.log("My name is " + person.Name + ", I'm " + person.age + " years old and my favorite color is " + person.favoriteColor)
 
   console.log(person);
   // Expected output: {"My name is Mickey . I'm 40 and my favorite color is purple." }
