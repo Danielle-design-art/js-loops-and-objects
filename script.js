@@ -82,14 +82,14 @@ console.log("Books")
 let books = [
 {title: "The Cat In The Hat",
     author: "Dr. Seuss",
-    pages: 61 },
+    pages: 61,
+    isFavorite:true  },
 { title: "The Cricket In Times Square",
     author: "George Selden",
     pages: 79 },
 { title: "The Firm",
     author: "John Grisham",
-    pages:560,
-    isFavorite:true },
+    pages:560},
 ]
 
 for ( let i = 0; i < books.length; i++) {
@@ -105,9 +105,25 @@ console.log(books)
 //problem 8
 console.log("find favorite book")
 
-
-
- 
+for ( let i = 0; i < books.length; i++) {
+  let bookObjective = books[i];
+  if (bookObjective.isFavorite ===true)
+console.log(
+  "My Favorite Book is " + bookObjective.title + " by " + bookObjective.author + ", since I used to read Dr. Seuss to my younger sibling"
+);
+}
 //Bonus Challenge
 
+console.log("describe a person bonus")
 
+let description = {
+  name: "Lincoln",
+  age: "16",
+  hobby: "gardening"
+};
+
+function describePerson(obj) {
+  return (obj.name) + " is " + (obj.age) + " years old, and he is at his best when he is " + (obj.hobby)
+}
+
+console.log(describePerson(description));
